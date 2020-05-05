@@ -1,0 +1,25 @@
+{
+  "name": "node-weather-app",
+  "version": "1.0.0",
+  "author": "demikhovr",
+  "description": "Node.js weather app",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js -e js,hbs",
+    "lint": "eslint .",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "handlebars": "4.7.6",
+    "hbs": "4.1.1",
+    "postman-request": "2.88.1-postman.22"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2",
+    "nodemon": "2.0.3"
+  },
+  "license": "ISC"
+}
